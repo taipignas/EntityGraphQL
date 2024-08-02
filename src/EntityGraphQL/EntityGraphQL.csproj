@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>netstandard2.1;net6.0;net8.0</TargetFrameworks>
     <LangVersion>12.0</LangVersion>
@@ -40,7 +40,7 @@
       <Package>EntityQL.Grammer</Package>
       <Listener>false</Listener>
       <Visitor>True</Visitor>
-      <JavaExec>/usr/bin/java</JavaExec>
+      <JavaExec>C:\Program Files\Amazon Corretto\jdk21.0.2_13\bin\java.exe</JavaExec>
     </Antlr4>
   </ItemGroup>
 </Project>
